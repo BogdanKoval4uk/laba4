@@ -77,6 +77,12 @@ name: CMake
 
       - name: Build HelloWorld
         run: cmake --build ${{github.workspace}}/hello_world_application/build
+Добавляем файл в проект и пушим на гитхаб:
+       $ git add .github
+       $ git commit -m "added CI.yml"
+       $ git push origin main
+
+Заходим на гитхаб, во вкладку Actions, и проверяем, что процесс выполнен успешно.
 
 
 
