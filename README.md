@@ -23,6 +23,7 @@
 
     
 Клонируем репозиторий третьей лабы:
+
     $ git clone <ссылка на репу третьей лабы>
     $ cd <имя репы третьей лабы>
     $ git remote remove origin
@@ -80,6 +81,7 @@ name: CMake
 
         
 Добавляем файл в проект и пушим на гитхаб:
+
        $ git add .github
        $ git commit -m "added CI.yml"
        $ git push origin main
